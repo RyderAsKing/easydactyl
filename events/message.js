@@ -18,9 +18,9 @@ exports.run = (client, message) => {
 	const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
 	const command = args.shift().toLowerCase();
 	try {
-        let genFile = require(`../commands/${command}.js`);
-        easyLogger.log(`${message.author.username} with ID ${message.author.id} has requested a command named "${command}"`, `success`);
-        genFile.run(message, args);
+	let genFile = require(`../commands/${command}.js`);
+	easyLogger.log(`${message.author.username} with ID ${message.author.id} has requested a command named "${command}"`, `success`);
+	genFile.run(message, args);
 	} catch (err){
 		console.log(err)
 	};
