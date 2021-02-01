@@ -1,0 +1,14 @@
+{
+    "token": "yourtoken",
+    "prefix": "!",
+
+    "successColor": "#3eff30",
+    "errorColor": "#ff0033",
+    "author": "EasyDactyl",
+    "footer": "EasyDactyl - Control your servers through discord!",
+
+    "host": "ip",
+    "user": "user",
+    "password": "pass",
+    "database": "db"
+}
